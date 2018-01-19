@@ -9,3 +9,4 @@ for i in range(n):
     for i in range(p):
         print("*x", end="")
     print()
+print()

@@ -1,13 +1,14 @@
-a=input("Username")
+from getpass import getpass
+user = "c4e"
+pas = "codethechange"
 
-b=input("password")
+n = input("Username: ")
+m = getpass("Password: ")
 
-if a != "C4Y":
-    print("You are not superuser")
-
-
-elif a == "C4Y":
-    if b!= "ctc":
-            print ("password iss incorrect")
-    elif b == "ctc":
-        print ( "Welcom to the program")
+if n == user:
+    if m == pas:
+        print("Welcome")
+    else:
+        print("Wrong Password")
+else:
+    print("User not valid")
